@@ -1,0 +1,91 @@
+* {
+  /*border: 2px black solid;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+html {
+  width: 900px;
+  height: auto;
+}
+
+.shapka {
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(55, 122, 174, 0.5);
+  width: 100%;
+}
+
+.main_class {
+  display: flex;
+  width: 100%;
+}
+
+.osn_oblast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 60%;
+  background-color: rgba(179, 179, 188, 0.5);
+}
+
+.text_osn_chast {
+  flex-direction: row;
+  align-items: flex-start;
+
+  text-align: center;
+  width: 100%;
+}
+
+.section_container {
+  /*border: 2px red solid;*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.echo_button {
+  width: 248px;
+  height: 50px;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: violet;
+}
+
+.tretiy {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.aside_class {
+  width: 40%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgba(84, 142, 68, 0.5);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-end;
+
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgba(142, 68, 114, 0.5);
+}
