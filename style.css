@@ -9,6 +9,10 @@ html {
   height: auto;
 }
 
+body {
+  width: 100vw;
+}
+
 .shapka {
   display: inline-flex;
   justify-content: center;
